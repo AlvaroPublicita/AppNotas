@@ -1,0 +1,145 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+/* Establece estilos globales para la aplicación */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado de la aplicación */
+.header {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+/* Estilos para el formulario de entrada */
+.note-input {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.note-input input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.note-input button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note-input button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la lista de notas */
+.note-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.note-item {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-item p {
+  margin: 0;
+}
+
+.note-actions button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.edit-note {
+  color: #ffc107;
+}
+
+.delete-note {
+  color: #dc3545;
+}
+
+/* Estilos para mensajes de error o confirmación */
+.message {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+}
